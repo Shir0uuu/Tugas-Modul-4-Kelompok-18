@@ -27,7 +27,7 @@ def main():
         print("3. Kembalikan buku")
         print("4. Keluar")
         user_choice = int(input("Masukkan pilihan Anda: "))
-        if user_choice == 1:
+       if user_choice == 1:
             library.display_available_books()
         elif user_choice == 2:
             requested_book = input("Masukkan nama buku yang ingin Anda pinjam: ")
